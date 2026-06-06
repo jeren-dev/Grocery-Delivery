@@ -1,0 +1,472 @@
+2025-04-29 12:04:23 - Order #11 SMS Result
+Phone: 8248119413
+Message: Your order #11 has been delivered. Final amount: Rs.478.00
+Result: Array
+(
+    [success] => 
+    [response] => Array
+        (
+            [status] => error
+            [description] => Invalid Template Match
+        )
+
+    [error] => 
+    [http_code] => 400
+    [debug_info] => Array
+        (
+            [url_length] => 226
+            [message_length] => 105
+            [encoded_length] => 109
+            [curl_info] => Array
+                (
+                    [url] => http://sms.creativepoint.in/api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+%2311+has+been+delivered.+Final+amount%3A+Rs.478.00+Sent+By+FSMSG+FSSMSS
+                    [content_type] => application/json; charset=UTF-8
+                    [http_code] => 400
+                    [header_size] => 197
+                    [request_size] => 257
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.141403
+                    [namelookup_time] => 0.002687
+                    [connect_time] => 0.069232
+                    [pretransfer_time] => 0.069358
+                    [size_upload] => 0
+                    [size_download] => 57
+                    [speed_download] => 403
+                    [speed_upload] => 0
+                    [download_content_length] => 57
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.141364
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 139.162.12.76
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 80
+                    [local_ip] => 192.168.1.7
+                    [local_port] => 53154
+                    [http_version] => 2
+                    [protocol] => 1
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTP
+                    [appconnect_time_us] => 0
+                    [connect_time_us] => 69232
+                    [namelookup_time_us] => 2687
+                    [pretransfer_time_us] => 69358
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 141364
+                    [total_time_us] => 141403
+                )
+
+            [verbose_log] => *   Trying 139.162.12.76:80...
+* Connected to sms.creativepoint.in (139.162.12.76) port 80 (#0)
+> GET /api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+%2311+has+been+delivered.+Final+amount%3A+Rs.478.00+Sent+By+FSMSG+FSSMSS HTTP/1.1
+Host: sms.creativepoint.in
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 400 Bad Request
+< Server: nginx
+< Date: Tue, 29 Apr 2025 06:34:23 GMT
+< Content-Type: application/json; charset=UTF-8
+< Content-Length: 57
+< Connection: keep-alive
+< X-Powered-By: PHP/5.6.40
+< 
+* Connection #0 to host sms.creativepoint.in left intact
+
+        )
+
+)
+
+------------------------
+2025-04-29 12:05:24 - Order #11 SMS Result
+Phone: 8248119413
+Message: Your order #11 has been delivered. Final amount: Rs.478.00
+Result: Array
+(
+    [success] => 
+    [response] => Array
+        (
+            [status] => error
+            [description] => Invalid Template Match
+        )
+
+    [error] => 
+    [http_code] => 400
+    [debug_info] => Array
+        (
+            [url_length] => 226
+            [message_length] => 105
+            [encoded_length] => 109
+            [curl_info] => Array
+                (
+                    [url] => http://sms.creativepoint.in/api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+%2311+has+been+delivered.+Final+amount%3A+Rs.478.00+Sent+By+FSMSG+FSSMSS
+                    [content_type] => application/json; charset=UTF-8
+                    [http_code] => 400
+                    [header_size] => 197
+                    [request_size] => 257
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.123708
+                    [namelookup_time] => 0.005601
+                    [connect_time] => 0.057448
+                    [pretransfer_time] => 0.057524
+                    [size_upload] => 0
+                    [size_download] => 57
+                    [speed_download] => 460
+                    [speed_upload] => 0
+                    [download_content_length] => 57
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.123655
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 139.162.12.76
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 80
+                    [local_ip] => 192.168.1.7
+                    [local_port] => 53164
+                    [http_version] => 2
+                    [protocol] => 1
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTP
+                    [appconnect_time_us] => 0
+                    [connect_time_us] => 57448
+                    [namelookup_time_us] => 5601
+                    [pretransfer_time_us] => 57524
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 123655
+                    [total_time_us] => 123708
+                )
+
+            [verbose_log] => *   Trying 139.162.12.76:80...
+* Connected to sms.creativepoint.in (139.162.12.76) port 80 (#0)
+> GET /api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+%2311+has+been+delivered.+Final+amount%3A+Rs.478.00+Sent+By+FSMSG+FSSMSS HTTP/1.1
+Host: sms.creativepoint.in
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 400 Bad Request
+< Server: nginx
+< Date: Tue, 29 Apr 2025 06:35:24 GMT
+< Content-Type: application/json; charset=UTF-8
+< Content-Length: 57
+< Connection: keep-alive
+< X-Powered-By: PHP/5.6.40
+< 
+* Connection #0 to host sms.creativepoint.in left intact
+
+        )
+
+)
+
+------------------------
+2025-04-29 12:06:25 - Order #11 SMS Result
+Phone: 8248119413
+Message: Your order has been delivered
+Result: Array
+(
+    [success] => 1
+    [response] => Array
+        (
+            [status] => success
+            [description] => Array
+                (
+                    [desc] => 1 messages scheduled for delievery
+                    [batchid] => 38476407
+                    [batch_dtl] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [mobileno] => 8248119413
+                                    [msgid] => 8316347
+                                    [status] => AWAITED-DLR
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [http_code] => 200
+    [debug_info] => Array
+        (
+            [url_length] => 193
+            [message_length] => 76
+            [encoded_length] => 76
+            [curl_info] => Array
+                (
+                    [url] => http://sms.creativepoint.in/api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+has+been+delivered+Sent+By+FSMSG+FSSMSS
+                    [content_type] => application/json; charset=UTF-8
+                    [http_code] => 200
+                    [header_size] => 189
+                    [request_size] => 224
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.158364
+                    [namelookup_time] => 0.016069
+                    [connect_time] => 0.076833
+                    [pretransfer_time] => 0.076915
+                    [size_upload] => 0
+                    [size_download] => 182
+                    [speed_download] => 1149
+                    [speed_upload] => 0
+                    [download_content_length] => 182
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.158326
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 139.162.12.76
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 80
+                    [local_ip] => 192.168.1.7
+                    [local_port] => 53176
+                    [http_version] => 2
+                    [protocol] => 1
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTP
+                    [appconnect_time_us] => 0
+                    [connect_time_us] => 76833
+                    [namelookup_time_us] => 16069
+                    [pretransfer_time_us] => 76915
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 158326
+                    [total_time_us] => 158364
+                )
+
+            [verbose_log] => *   Trying 139.162.12.76:80...
+* Connected to sms.creativepoint.in (139.162.12.76) port 80 (#0)
+> GET /api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+has+been+delivered+Sent+By+FSMSG+FSSMSS HTTP/1.1
+Host: sms.creativepoint.in
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Tue, 29 Apr 2025 06:36:26 GMT
+< Content-Type: application/json; charset=UTF-8
+< Content-Length: 182
+< Connection: keep-alive
+< X-Powered-By: PHP/5.6.40
+< 
+* Connection #0 to host sms.creativepoint.in left intact
+
+        )
+
+)
+
+------------------------
+2025-04-29 12:07:13 - Order #12 SMS Result
+Phone: 8248119413
+Message: Your order has been delivered
+Result: Array
+(
+    [success] => 1
+    [response] => Array
+        (
+            [status] => success
+            [description] => Array
+                (
+                    [desc] => 1 messages scheduled for delievery
+                    [batchid] => 38476430
+                    [batch_dtl] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [mobileno] => 8248119413
+                                    [msgid] => 8316370
+                                    [status] => AWAITED-DLR
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [http_code] => 200
+    [debug_info] => Array
+        (
+            [url_length] => 193
+            [message_length] => 76
+            [encoded_length] => 76
+            [curl_info] => Array
+                (
+                    [url] => http://sms.creativepoint.in/api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+has+been+delivered+Sent+By+FSMSG+FSSMSS
+                    [content_type] => application/json; charset=UTF-8
+                    [http_code] => 200
+                    [header_size] => 189
+                    [request_size] => 224
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.135143
+                    [namelookup_time] => 0.001177
+                    [connect_time] => 0.053679
+                    [pretransfer_time] => 0.053982
+                    [size_upload] => 0
+                    [size_download] => 182
+                    [speed_download] => 1346
+                    [speed_upload] => 0
+                    [download_content_length] => 182
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.135092
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 139.162.12.76
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 80
+                    [local_ip] => 192.168.1.7
+                    [local_port] => 53199
+                    [http_version] => 2
+                    [protocol] => 1
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTP
+                    [appconnect_time_us] => 0
+                    [connect_time_us] => 53679
+                    [namelookup_time_us] => 1177
+                    [pretransfer_time_us] => 53982
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 135092
+                    [total_time_us] => 135143
+                )
+
+            [verbose_log] => *   Trying 139.162.12.76:80...
+* Connected to sms.creativepoint.in (139.162.12.76) port 80 (#0)
+> GET /api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8248119413&text=Dear+customer+your+msg+is+Your+order+has+been+delivered+Sent+By+FSMSG+FSSMSS HTTP/1.1
+Host: sms.creativepoint.in
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Tue, 29 Apr 2025 06:37:14 GMT
+< Content-Type: application/json; charset=UTF-8
+< Content-Length: 182
+< Connection: keep-alive
+< X-Powered-By: PHP/5.6.40
+< 
+* Connection #0 to host sms.creativepoint.in left intact
+
+        )
+
+)
+
+------------------------
+2025-11-04 11:03:58 - Order #1 SMS Result
+Phone: 8838884930
+Message: Your order has been delivered
+Result: Array
+(
+    [success] => 1
+    [response] => Array
+        (
+            [status] => success
+            [description] => Array
+                (
+                    [desc] => 1 messages scheduled for delievery
+                    [batchid] => 43466217
+                    [batch_dtl] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [mobileno] => 8838884930
+                                    [msgid] => 20596843
+                                    [status] => AWAITED-DLR
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [http_code] => 200
+    [debug_info] => Array
+        (
+            [url_length] => 193
+            [message_length] => 76
+            [encoded_length] => 76
+            [curl_info] => Array
+                (
+                    [url] => http://sms.creativepoint.in/api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8838884930&text=Dear+customer+your+msg+is+Your+order+has+been+delivered+Sent+By+FSMSG+FSSMSS
+                    [content_type] => application/json; charset=UTF-8
+                    [http_code] => 200
+                    [header_size] => 163
+                    [request_size] => 224
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.206643
+                    [namelookup_time] => 0.051243
+                    [connect_time] => 0.096084
+                    [pretransfer_time] => 0.096387
+                    [size_upload] => 0
+                    [size_download] => 183
+                    [speed_download] => 885
+                    [speed_upload] => 0
+                    [download_content_length] => 183
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.206586
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 139.162.12.76
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 80
+                    [local_ip] => 192.168.1.11
+                    [local_port] => 50637
+                    [http_version] => 2
+                    [protocol] => 1
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTP
+                    [appconnect_time_us] => 0
+                    [connect_time_us] => 96084
+                    [namelookup_time_us] => 51243
+                    [pretransfer_time_us] => 96387
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 206586
+                    [total_time_us] => 206643
+                )
+
+            [verbose_log] => *   Trying 139.162.12.76:80...
+* Connected to sms.creativepoint.in (139.162.12.76) port 80 (#0)
+> GET /api/push.json?apikey=6555c521622c1&route=transsms&sender=FSSMSS&mobileno=8838884930&text=Dear+customer+your+msg+is+Your+order+has+been+delivered+Sent+By+FSMSG+FSSMSS HTTP/1.1
+Host: sms.creativepoint.in
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Tue, 04 Nov 2025 05:33:57 GMT
+< Content-Type: application/json; charset=UTF-8
+< Content-Length: 183
+< Connection: keep-alive
+< 
+* Connection #0 to host sms.creativepoint.in left intact
+
+        )
+
+)
+
+------------------------
