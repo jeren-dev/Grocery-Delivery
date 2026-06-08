@@ -224,7 +224,7 @@ Benefits include:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/grocerygo.git
+git clone https://github.com/jeren-dev/grocerygo.git
 ```
 
 ### 2. Move Project
